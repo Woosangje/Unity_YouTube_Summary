@@ -8,3 +8,4 @@
 다른 게임에서도 응용할수있을듯<br/>
 02/20 Part 28 스테이지 컨텐츠<br/>
 02/23 Part 30 힌트 이펙트<br/>
+02/25 Part 32,33 score UI, background Tile<br/>
