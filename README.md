@@ -10,3 +10,4 @@
 02/23 Part 30 힌트 이펙트<br/>
 02/25 Part 32,33 score UI, background Tile<br/>
 03/08 Part 42 UI
+03/13 Part 43부터 Combat포폴은 별도로 작업 
