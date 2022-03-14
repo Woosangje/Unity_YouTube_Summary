@@ -11,3 +11,4 @@
 02/25 Part 32,33 score UI, background Tile<br/>
 03/08 Part 42 UI
 03/13 Part 43부터 Combat포폴은 별도로 작업 
+03/14 Part 47 ui설정 집중안하면 버그 찾기어려움
