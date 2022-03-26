@@ -19,3 +19,4 @@
 03/25 오류해결 </br>
 03/26 테스트시 속도 빨라지는 법 
 Edit -> Project Settings -> Editor -> Enter Play Mode Options의 토글 On으로 하면됨
+TextMeshPro-Text사용시 레이어가 안보이면 Extra Settings에 레이어 설정 옵션 확인할 것
