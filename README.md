@@ -21,3 +21,4 @@
 Edit -> Project Settings -> Editor -> Enter Play Mode Options의 토글 On으로 하면됨
 TextMeshPro-Text사용시 레이어가 안보이면 Extra Settings에 레이어 설정 옵션 확인할 것 </br>
 오브젝트이름?. 또는 ?[]은 오브젝트나 null이 아닐 경우만 
+03/28포폴 로스터 UI 1페이지완성 ScrollRect, ContentSizeFitter 
