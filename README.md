@@ -23,3 +23,8 @@ TextMeshPro-Text사용시 레이어가 안보이면 Extra Settings에 레이어 
 03/29 히어로 UI배치하는데 10시간 소비,<br/>
 
 03/30 RTS 카메라 https://www.youtube.com/watch?v=cfjLQrMGEb4 모바일은 볼필요없음
+04/01 화면 이동시 
+Input.GetMouseButtonDown(0),Input.GetMouseButton(0) 만 사용하면 UI 영역에서 마우스클릭해도 클릭된다. UI에서 적용안되게 할려면<br/>
+using UnityEngine.EventSystems;
+if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()),
+if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())  선언해주자<br/>
