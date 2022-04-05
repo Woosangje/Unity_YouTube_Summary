@@ -28,3 +28,7 @@ Input.GetMouseButtonDown(0),Input.GetMouseButton(0) 만 사용하면 UI 영역�
 using UnityEngine.EventSystems;
 if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()),
 if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())  선언해주자<br/>
+<br/>
+#region 이름<br/>
+#endregion 이름<br/>
+일종의 주석 같은건데, 숨김 기능이 있는 주석 기능<br/>
