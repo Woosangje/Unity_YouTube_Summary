@@ -38,3 +38,10 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo
 
 ● TLS Allocator ALLOC_TEMP_THREAD, underlying allocator ALLOC_TEMP_THREAD has unfreed allocations, size 102 오류<br/>
 오류뜨면 일단 유니티 한번 닫았다 열어보자<br/>
+
+System.IO.File.Delete(  string FilePath  );
+System.IO.File.Exists(  string FilePath  );
+위 함수를 사용한 후에 파일 입출력등 파일 관련 작업을 하게 되는 경우 정상적으로 작동되지 않는 경우가 발생한다,
+파일사용후 close 시켜주지 않아서 발생하는 문제였다.
+이같은 문제를 해결하기 위해서는 함수 끝에 Close()를 붙여주면된다.
+System.IO.File.Create ( string FilePath ).Close() ;
