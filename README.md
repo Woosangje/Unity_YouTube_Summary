@@ -33,5 +33,8 @@ if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())  
 #endregion 이름<br/>
 일종의 주석 같은건데, 숨김 기능이 있는 주석 기능<br/>
 
-C#파일 입출력 
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo=140034196937
+C#파일 입출력 <br/>
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo=140034196937<br/>
+
+● TLS Allocator ALLOC_TEMP_THREAD, underlying allocator ALLOC_TEMP_THREAD has unfreed allocations, size 102 오류<br/>
+오류뜨면 일단 유니티 한번 닫았다 열어보자<br/>
