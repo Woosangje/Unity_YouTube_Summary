@@ -32,3 +32,6 @@ if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())  
 #region 이름<br/>
 #endregion 이름<br/>
 일종의 주석 같은건데, 숨김 기능이 있는 주석 기능<br/>
+
+C#파일 입출력 
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo=140034196937
