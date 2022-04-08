@@ -41,7 +41,10 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo
 
 System.IO.File.Delete(  string FilePath  );
 System.IO.File.Exists(  string FilePath  );
-위 함수를 사용한 후에 파일 입출력등 파일 관련 작업을 하게 되는 경우 정상적으로 작동되지 않는 경우가 발생한다,
-파일사용후 close 시켜주지 않아서 발생하는 문제였다.
-이같은 문제를 해결하기 위해서는 함수 끝에 Close()를 붙여주면된다.
-System.IO.File.Create ( string FilePath ).Close() ;
+위 함수를 사용한 후에 파일 입출력등 파일 관련 작업을 하게 되는 경우 정상적으로 작동되지 않는 경우가 발생한다,<br/>
+파일사용후 close 시켜주지 않아서 발생하는 문제였다.<br/>
+이같은 문제를 해결하기 위해서는 함수 끝에 Close()를 붙여주면된다.<br/>
+System.IO.File.Create ( string FilePath ).Close() ;<br/>
+
+
+모바일에서 File.ReadAllText(filePath);오류뜬다.<br/>
