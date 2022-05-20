@@ -31,4 +31,5 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo
 ● TLS Allocator ALLOC_TEMP_THREAD, underlying allocator ALLOC_TEMP_THREAD has unfreed allocations, size 102 오류<br/>
 오류뜨면 일단 유니티 한번 닫았다 열어보자<br/>
 
-json 모바일에서 배열값이 저장이안되서 일단 보류<br/>
+keyTool 경로 
+https://foxtrotin.tistory.com/521
