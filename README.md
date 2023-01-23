@@ -33,3 +33,5 @@ https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=joymrk&logNo
 
 keyTool 경로 
 https://foxtrotin.tistory.com/521
+
+23/01/23 모듈화 공부
